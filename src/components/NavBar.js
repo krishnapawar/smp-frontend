@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function NavBar() {
     return (
         <header>
-            <nav className="teal navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="bg-cls-dred navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
                     <Link className="navbar-brand" to="/">
                         Matrimony

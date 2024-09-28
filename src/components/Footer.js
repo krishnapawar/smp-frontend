@@ -1,3 +1,5 @@
+import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp, FaYoutube } from "react-icons/fa";
+
 function Footer() {
   return (
     <footer className=" bg-cls-dred footer bg-dark text-light py-4">
@@ -39,10 +41,7 @@ function Footer() {
               <li>
                 <a href="#">
                   <span>
-                    <img
-                      src="https://matrimonial.wnssolution.com/media/facebook.svg"
-                      alt="Facebook"
-                    />
+                    <FaFacebook/>
                   </span>
                   Facebook
                 </a>
@@ -50,10 +49,7 @@ function Footer() {
               <li>
                 <a href="#">
                   <span>
-                    <img
-                      src="https://matrimonial.wnssolution.com/media/twitter.svg"
-                      alt="Twitter"
-                    />
+                    <FaTwitter/>
                   </span>
                   Twitter
                 </a>
@@ -61,10 +57,7 @@ function Footer() {
               <li>
                 <a href="#">
                   <span>
-                    <img
-                      src="https://matrimonial.wnssolution.com/media/instagram.svg"
-                      alt="Instagram"
-                    />
+                    <FaInstagram/>
                   </span>
                   Instagram
                 </a>
@@ -72,10 +65,7 @@ function Footer() {
               <li>
                 <a href="#">
                   <span>
-                    <img
-                      src="https://matrimonial.wnssolution.com/media/youtube.svg"
-                      alt="Youtube"
-                    />
+                    <FaYoutube/>
                   </span>
                   Youtube
                 </a>
@@ -83,10 +73,7 @@ function Footer() {
               <li>
                 <a href="#">
                   <span>
-                    <img
-                      src="https://matrimonial.wnssolution.com/media/whatsapp.svg"
-                      alt="WhatsApp"
-                    />
+                    <FaWhatsapp/>
                   </span>
                   WhatsApp
                 </a>
